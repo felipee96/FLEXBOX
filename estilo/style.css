@@ -1,0 +1,28 @@
+body{
+	background-color: #cccccc
+}
+
+.contenedor{
+	border: 10px solid;
+	background-color: #FFF;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+
+	/*flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end; 
+
+
+}
+
+.elemento{
+	background-color: #E67E22;
+	margin: 5px;
+	color: white;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+
+}
